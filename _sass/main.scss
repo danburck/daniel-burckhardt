@@ -1,1 +1,32 @@
+$black: #27292D;
+$grey: #939496;
+$color: #C80000;
+
 @import "_index.scss";
+
+
+body {
+  height: 100vh;
+	margin: 0;
+  padding: 0;
+  border: 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h1 {
+
+}
+
+a {
+  color: $color;
+  &:hover {
+    color: $grey;
+  }
+}
+
+span {
+  color: $grey;
+}

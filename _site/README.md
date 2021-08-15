@@ -13,4 +13,4 @@ $ bundle exec jekyll serve
 **TODO**
 - [x] Basic Site
 - [ ] CI Deployment Github with https://jekyllrb.com/docs/continuous-integration/github-actions/
-- [ ] CSS
+- [ ] CSS in development and production env https://jekyllrb.com/docs/configuration/environments/

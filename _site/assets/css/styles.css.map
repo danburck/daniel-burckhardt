@@ -8,9 +8,9 @@
 	],
 	"sourcesContent": [
 		"// Use SASS in  _sass/main.sccs sheet\n@import \"main\";",
-		"@import \"_index.scss\";\n\n// Fonts\n// body {\n//   height: 100vh;\n// \tmargin: 0;\n//   padding: 0;\n//   border: 0;\n//   position: relative;\n//   background-image: linear-gradient(-225deg, rgba(30,30,30,0.1) 0%, rgba(46,46,46,0.2) 100%), url(\"/img/backgroundCasio.jpg\");\n//   background-position: center;\n//   background-repeat: no-repeat;\n//   background-size: cover;\n//   background-attachment: fixed;\n// }\n// h2{\n//   color: #27292D;\n//   letter-spacing: 5px;\n//   font-size: 21px;\n//   font-weight: 800;\n//   text-transform: uppercase;\n//   text-align: center;\n//   margin-top: 100px;\n//   margin-bottom: 40px;\n// }\n// h3{\n//   color: #27292D;\n//   letter-spacing: 5px;\n//   font-size: 21px;\n//   font-weight: 800;\n//   text-transform: uppercase;\n//   text-align: center;\n// }\n\n// a {\n// \ttext-decoration: none;\n// \tcolor: #939496;\n//   letter-spacing: 4px;\n//   font-size:9px;\n//   font-weight:bold;\n// }\n\n// p {\n//     color: #27292D;\n//     letter-spacing: 2px;\n//     font-size: 10px;\n//     font-weight: 800;\n//     margin:0;\n// }\n",
-		""
+		"$black: #27292D;\n$grey: #939496;\n$color: #C80000;\n\n@import \"_index.scss\";\n\n\nbody {\n  height: 100vh;\n\tmargin: 0;\n  padding: 0;\n  border: 0;\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n}\n\nh1 {\n\n}\n\na {\n  color: $color;\n  &:hover {\n    color: $grey;\n  }\n}\n\nspan {\n  color: $grey;\n}",
+		"main {\n  padding: 64px;\n  max-width: 900px;\n}\n\nsection {\n  margin: 32px 0 32px 0;\n}\n\n#links {\n  display: flex;\n  list-style-type: none;\n  padding: 0;\n\n  .link {\n    padding-right: 16px;\n  }\n}"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": "AEAA,AAAA,IAAI,AAAC,CACH,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,KAAK,CACjB,AAED,AAAA,OAAO,AAAC,CACN,MAAM,CAAE,aAAa,CACtB,AAED,AAAA,MAAM,AAAC,CACL,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,IAAI,CACrB,OAAO,CAAE,CAAC,CAKX,AARD,AAKE,MALI,CAKJ,KAAK,AAAC,CACJ,aAAa,CAAE,IAAI,CACpB,ADTH,AAAA,IAAI,AAAC,CACH,MAAM,CAAE,KAAK,CACd,MAAM,CAAE,CAAC,CACR,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CACT,QAAQ,CAAE,QAAQ,CAClB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,YAAY,CAC9B,AAMD,AAAA,CAAC,AAAC,CACA,KAAK,CArBC,OAAO,CAyBd,AALD,AAEE,CAFD,CAEG,KAAK,AAAC,CACN,KAAK,CAxBF,OAAO,CAyBX,AAGH,AAAA,IAAI,AAAC,CACH,KAAK,CA7BA,OAAO,CA8Bb"
 }

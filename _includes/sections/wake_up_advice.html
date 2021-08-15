@@ -1,9 +1,14 @@
 <section class="wake-up-advice">
   <h2>🔫 Wake up advice </h2>
     <ul>
-      <h2><li>Show up️</li></h2>
+      {% for item in site.data.advice %}
+      <h2><li>
+        {{ item.advice }}
+      </li></h2>
+      {% endfor %}
+      <!-- <h2><li>Show up️</li></h2>
       <h2><li>Work with extraordinary people and innovate</li></h2>
       <h2><li>Solve problems not solutions</li></h2>
-      <h2><li>Eat, work out, read & rest</li></h2>
+      <h2><li>Eat, work out, read & rest</li></h2> -->
     </ul>
 </section>
