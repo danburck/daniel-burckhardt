@@ -1,0 +1,13 @@
+<nav class="links">
+  <ul>
+    {% for item in site.data.links %}
+      <li class="{{ item.name }}nav">
+        <a href="{{ item.link }}">
+          <h2>
+            {{ item.name }}
+          </h2>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
