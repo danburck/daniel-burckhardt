@@ -8,9 +8,9 @@
 	],
 	"sourcesContent": [
 		"// Use SASS in  _sass/main.sccs sheet\n@import \"main\";",
-		"$black: #27292D;\n$grey: #939496;\n$color: #C80000;\n\n@import \"_index.scss\";\n\n\nbody {\n  height: 100vh;\n\tmargin: 0;\n  padding: 0;\n  border: 0;\n  position: relative;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n}\n\nh1 {\n\n}\n\na {\n  color: $color;\n  &:hover {\n    color: $grey;\n  }\n}\n\nspan {\n  color: $grey;\n}",
-		"main {\n  padding: 64px;\n  max-width: 900px;\n}\n\nsection {\n  margin: 32px 0 32px 0;\n}\n\n#links {\n  display: flex;\n  list-style-type: none;\n  padding: 0;\n\n  .link {\n    padding-right: 16px;\n  }\n}"
+		"$black: #27292D;\n$grey: #939496;\n$color: #C80000;\n\n@import \"_index.scss\";\n\nbody {\n  height: 100vh;\n  max-width: 700px;\n  padding: 0 30px;\n  margin: 60px auto;\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  font-size: 60%;\n}\n\nh1 {\n\n}\n\na {\n  color: $color;\n  &:hover {\n    color: $grey;\n  }\n}\n\nspan {\n  color: $grey;\n}\n\n@media screen and (max-width: 425px) {\n  html {\n    color: red;\n    font-size: 80%;\n  }\n}",
+		"section {\n  margin: 32px 0 32px 0;\n}\n\n#links {\n  display: flex;\n  list-style-type: none;\n  padding: 0;\n\n  .link {\n    padding-right: 16px;\n  }\n}"
 	],
 	"names": [],
-	"mappings": "AEAA,AAAA,IAAI,AAAC,CACH,OAAO,CAAE,IAAI,CACb,SAAS,CAAE,KAAK,CACjB,AAED,AAAA,OAAO,AAAC,CACN,MAAM,CAAE,aAAa,CACtB,AAED,AAAA,MAAM,AAAC,CACL,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,IAAI,CACrB,OAAO,CAAE,CAAC,CAKX,AARD,AAKE,MALI,CAKJ,KAAK,AAAC,CACJ,aAAa,CAAE,IAAI,CACpB,ADTH,AAAA,IAAI,AAAC,CACH,MAAM,CAAE,KAAK,CACd,MAAM,CAAE,CAAC,CACR,OAAO,CAAE,CAAC,CACV,MAAM,CAAE,CAAC,CACT,QAAQ,CAAE,QAAQ,CAClB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,YAAY,CAC9B,AAMD,AAAA,CAAC,AAAC,CACA,KAAK,CArBC,OAAO,CAyBd,AALD,AAEE,CAFD,CAEG,KAAK,AAAC,CACN,KAAK,CAxBF,OAAO,CAyBX,AAGH,AAAA,IAAI,AAAC,CACH,KAAK,CA7BA,OAAO,CA8Bb"
+	"mappings": "AEAA,AAAA,OAAO,AAAC,CACN,MAAM,CAAE,aAAa,CACtB,AAED,AAAA,MAAM,AAAC,CACL,OAAO,CAAE,IAAI,CACb,eAAe,CAAE,IAAI,CACrB,OAAO,CAAE,CAAC,CAKX,AARD,AAKE,MALI,CAKJ,KAAK,AAAC,CACJ,aAAa,CAAE,IAAI,CACpB,ADLH,AAAA,IAAI,AAAC,CACH,MAAM,CAAE,KAAK,CACb,SAAS,CAAE,KAAK,CAChB,OAAO,CAAE,MAAM,CACf,MAAM,CAAE,SAAS,CACjB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,GAAG,CACnB,eAAe,CAAE,YAAY,CAC7B,SAAS,CAAE,GAAG,CACf,AAMD,AAAA,CAAC,AAAC,CACA,KAAK,CApBC,OAAO,CAwBd,AALD,AAEE,CAFD,CAEG,KAAK,AAAC,CACN,KAAK,CAvBF,OAAO,CAwBX,AAGH,AAAA,IAAI,AAAC,CACH,KAAK,CA5BA,OAAO,CA6Bb,AAED,MAAM,8BACJ,CAAA,AAAA,IAAI,AAAC,CACH,KAAK,CAAE,GAAG,CACV,SAAS,CAAE,GAAG,CACf,CAAA"
 }

@@ -4,16 +4,15 @@ $color: #C80000;
 
 @import "_index.scss";
 
-
 body {
   height: 100vh;
-	margin: 0;
-  padding: 0;
-  border: 0;
-  position: relative;
+  max-width: 700px;
+  padding: 0 30px;
+  margin: 60px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-size: 60%;
 }
 
 h1 {
@@ -29,4 +28,11 @@ a {
 
 span {
   color: $grey;
+}
+
+@media screen and (max-width: 425px) {
+  html {
+    color: red;
+    font-size: 80%;
+  }
 }
