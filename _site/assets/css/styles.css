@@ -1,3 +1,3 @@
-section{margin:32px 0 32px 0}#links{display:flex;list-style-type:none;padding:0}#links .link{padding-right:16px}body{height:100vh;max-width:700px;padding:0 30px;margin:60px auto;display:flex;flex-direction:row;justify-content:space-around;font-size:60%}a{color:#C80000}a:hover{color:#939496}span{color:#939496}@media screen and (max-width: 425px){html{color:red;font-size:80%}}
+section{margin:32px 0 32px 0}#links{display:flex;list-style-type:none;padding:0;flex-wrap:wrap}#links .link{padding-right:16px}body{height:100vh;max-width:700px;padding:0 30px;margin:60px auto;flex-direction:row;justify-content:space-around;font-size:60%}a{color:#C80000}a:hover{color:#939496}span{color:#939496}@media screen and (max-width: 425px){html{color:red;font-size:80%}}
 
 /*# sourceMappingURL=styles.css.map */

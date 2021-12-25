@@ -1,32 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description=" content="Daniel Burckhardt">
-<meta property="og:url"content="https://danburck.github.io/daniel-burckhardt/">
-<meta property="og:title" content="Daniel Burckhardt">
-<meta property="og:description" content="Hi, I am Daniel Burckhardt. I record music and isolate problems in high pressure business environments.">
-
-<title>Daniel Burckhardt</title>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- Template core CSS-->
-
-  <link rel="stylesheet" href="/assets/css/styles.css">
-
-
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-  </head>
-  <body>
-    <main>
-      <div class="container">
-        <header class="intro">
+I"ç	<header class="intro">
   <h1>
     Hi, I am Daniel Burckhardt. I record <a href="https://www.noah-klein.com/">music</a> and isolate
     <span>problems</span> in high pressure business environments.
@@ -155,9 +127,4 @@
   </ul>
 </nav>
 
-
-      </div>
-    </main>
-    
-  </body>
-</html>
+:ET

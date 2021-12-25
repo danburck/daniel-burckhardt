@@ -1,11 +1,17 @@
+nav {
+  // display: inline-block;
+}
+
 section {
   margin: 32px 0 32px 0;
+
 }
 
 #links {
   display: flex;
   list-style-type: none;
   padding: 0;
+  flex-wrap: wrap;
 
   .link {
     padding-right: 16px;
