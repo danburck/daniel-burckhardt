@@ -30,9 +30,25 @@ span {
   color: $grey;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
   html {
     color: red;
     font-size: 80%;
+  }
+
+
+  body {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  html {
+    color: red;
+    font-size: 60%;
+  }
+
+  body {
+    padding: 0 15px;
   }
 }
