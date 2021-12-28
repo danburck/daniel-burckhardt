@@ -1,4 +1,4 @@
-# daniel-burckhardt
+# me
 
 [`me`](https://danburck.github.io/me/) is my personal website built with jekyll.
 
