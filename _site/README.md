@@ -1,6 +1,6 @@
 # daniel-burckhardt
 
-[`daniel-burckhardt`](https://danburck.github.io/daniel-burckhardt/) is my personal website built with jekyll.
+[`me`](https://danburck.github.io/me/) is my personal website built with jekyll.
 
 ## Usage
 
